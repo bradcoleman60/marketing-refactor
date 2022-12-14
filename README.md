@@ -24,10 +24,11 @@ As as result of my review of these accessibility standards, I included alternati
 
 I wanted to ensure that the alternative attributes for all images dicussed above actually worked and could be read by a website reader.  I installed the Chrome Screen Reader add-on and then used the Ctrl-Alt-Z command to test all images.  I am glad I performed this step as it higlighted that I misspelled the word "laptop" in one of the alternative attributes.  Additionally, I noticed that because I used semantic HTML elements, the reader read these more clearly. 
 
-While I was refactoring the code, another prcoess I used to test the code as I progressed, was to "comment out" the original code (in CSS /* */, in HTML <!-- -->) and replace with my suggested improved code.  
+While I was refactoring the code, another prcoess I used to test the code as I progressed, was to "comment out" the original code (in CSS /* */, in HTML <!-- -->) and replace with my suggested improved code.   
 
 
 ## Installation
+
 
 N/A
 
@@ -38,8 +39,8 @@ This website provides notes and information on three coding langauges on creatin
 
 ## Credits
 
-HTML Code:                      https://www.w3schools.com/html/default.asp
-CSS Code:                       https://www.w3schools.com/css/default.asp
+HTML Code reference:                      https://www.w3schools.com/html/default.asp
+CSS Code reference:                       https://www.w3schools.com/css/default.asp
 Web Accessibilty Standards:     https://blog.hubspot.com/website/web-accessibility#web-accessibility-standards
 Chrome Screen Reader Add-on:    https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn/related?hl=en
 
