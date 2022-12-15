@@ -8,8 +8,8 @@
 </head>
 
 <!-- 
-Created new header nav section and moved navigation under the nav tag.
-Removed <ul> and <li> as considered uncecessary 
+Created new header section and moved navigation elements under a new nav tag.
+Removed <ul> and <li> as considered unnecessary. 
 -->
 <header>
     <h1>Hori<span class="seo">seo</span>n</h1>
@@ -22,20 +22,22 @@ Removed <ul> and <li> as considered uncecessary
 
 
 <body>
-    <!-- Replaced <div> with <figure>.  Addtional I moved the image file to the index page 
-        to ensure that alternative langauge could be added -->
-        <figure  class="hero">
+    <!-- 
+    Replaced <div> with <figure>.  Additionally I moved the background image file previously included
+    in the stylesheet.css file to the index page to ensure that alternative language could be added 
+    -->
+    <figure  class="hero">
         <img src="./assets/images/digital-marketing-meeting.jpg" alt="Image of a group of people collaborating around a table"/>
     </figure>
 
     <!-- 
-    Crerated new <main> section. Original included a <div> with a class="content".
+    Created new <main> section. Original included a <div> with a class="content".
     Removed all <div> tags and all classes in this section.  Kept all id's as is.
-    Added alternative langauge to all image files. 
+    Added alternative language to all image files. 
     -->
     <main>
         <section id="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" alt="Image of a notebook with a graphic of search engine optimation"/>
+            <img src="./assets/images/search-engine-optimization.jpg" alt="Image of a notebook with a graphic of search engine Optimization"/>
             <h2>Search Engine Optimization</h2>
             <p>The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.</p>
         </section>
@@ -52,9 +54,10 @@ Removed <ul> and <li> as considered uncecessary
     </main>
     
     <!-- 
-    Created new <aside> section.  Origianl included a <div> with a class="benefits".
+    Created new <aside> section.  Original included a <div> with a class="benefits".
     Removed all classes in this section as there were non-distinct.  CSS is defined at the <aside>
-    level.  Added alternative langauge to all image files 
+    level.  As this was not the main section of the site, I used h3 tags on the headers.
+    Added alternative language to all image files. 
     -->
     <aside>
        <div>
@@ -74,11 +77,11 @@ Removed <ul> and <li> as considered uncecessary
    
     <!-- 
     Created new <footer> section.  Original included a <div> with a class ="footer"
-    Consolidated the copyright disclosure into the same h2.
+    Consolidated the copyright disclosure into the same h4 that was changed from an h2.
      -->
     <footer>
-        <h2>Made with ❤️️ by Horiseon</h2>
-        <h2>&copy; 2019 Horiseon Social Solution Services, Inc. </h2>
+        <h4>Made with ❤️️ by Horiseon</h4>
+        <h4>&copy; 2019 Horiseon Social Solution Services, Inc. </h4>
     </footer>
     
 </body>

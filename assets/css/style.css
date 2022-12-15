@@ -22,7 +22,7 @@ header h1 {
     color: #d9dcd6;
 }
 
-/* Added a semamtic tag "nav" and included this in the header css.
+/* Added a semantic tag "nav" and included this in the header css.
 Original had div. */
 header nav { 
     padding-top: 15px;
@@ -32,7 +32,7 @@ header nav {
     font-size: 20px;
 }
 
-/* Added a semamtic tag "nav" and included this in the header css */
+/* Added a semantic tag "nav" and included this in the header css */
 header nav a {
     display: inline-block;
     margin-left: 25px;
@@ -50,25 +50,25 @@ p {
 }
 
 /* Removed background image from css and move to index.html file to 
-ensure alternative lamguage could be added */
+ensure alternative language could be added */
+
 .hero img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    /* background-image: url("../images/digital-marketing-meeting.jpg"); */
     background-size: cover;
     background-position: center;
 }
 
 
-/* Added a slighly more contast for readibility to this class */
+/* Added a slightly more contrast for readability to this class */
 .seo {
     color: #508a17;
 }
 
-/* Removed [float-right] and [float-left] selectors */
+/* Removed [float-right] and [float-left] selectors and consolidated with other IDs below */
 
-/* Repace class="content" with samantic element <main> with corrsponding change in 
+/* Replaced class="content" with semantic element <main> with corresponding change in 
 this selector */
 main {
     width: 75%;
@@ -77,7 +77,7 @@ main {
 }
 
 /* Consolidated and eliminated the Classes (Benefit-lead, Benefit-brand and 
-Benefit-cost) that were contained in a Class name Content and then defined these attritibutes and 
+Benefit-cost) that were contained in a Class name Content and then defined these attributes and 
 value at the Aside element level */
 aside {
     margin-right: 20px;
@@ -93,7 +93,7 @@ aside {
 }
 
 /* Consolidated and eliminated the Classes (Benefit-lead, Benefit-brand and 
-Benefit-cost) that were contained in a Class name Content and then defined these attritibutes and 
+Benefit-cost) that were contained in a Class name Content and then defined these attributes and 
 value at the Aside element level */
 aside img {
     display: block;
@@ -102,8 +102,8 @@ aside img {
 }
 
 /* Consolidated and eliminated the Classes (Benefit-lead, Benefit-brand and 
-Benefit-cost) that were contained in a Class name Content and then defined these attritibutes and 
-value at the Aside element level.  Add font-size to increase readabilty of this element */
+Benefit-cost) that were contained in a Class name Content and then defined these attributes and 
+value at the Aside element level.  Add font-size to increase readability of this element */
 aside h3 {
     margin-top: 15px;
     margin-bottom: 10px;
@@ -155,8 +155,8 @@ the class=float-left in this selector */
 }
 
 /* Change to a semantic element of <footer> from a <div class="footer">.
-Consoldated the h2 slector into this element to capture the font-size. */
-footer h2 {
+Consolidated the h2 slector into this element to capture the font-size. */
+footer h4 {
     padding: 20px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
