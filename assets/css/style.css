@@ -15,15 +15,16 @@ header {
     color: #ffffff;
 }
 
-
+/* Added color attribute to this selector */
 header h1 {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
 }
 
-
-header nav {
+/* Added a semamtic tag "nav" and included this in the header css.
+Original had div. */
+header nav { 
     padding-top: 15px;
     margin-right: 5px;
     float: right;
@@ -31,11 +32,13 @@ header nav {
     font-size: 20px;
 }
 
+/* Added a semamtic tag "nav" and included this in the header css */
 header nav a {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Deleted [.header div ul] and [header div li] as no longer needed.  */
 
 a {
     color: #ffffff;
@@ -56,13 +59,24 @@ p {
 }
 
 
+/* Added a slighly more contast for readibility to this class */
+.seo {
+    color: #508a17;
+}
+
+/* Removed [float-right] and [float-left] selectors */
+
+/* Repace class="content" with samantic element <main> with corrsponding change in 
+this selector */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px; 
 }
 
-
+/* Consolidated and eliminated the Classes (Benefit-lead, Benefit-brand and 
+Benefit-cost) that were contained in a Class name Content and then defined these attritibutes and 
+value at the Aside element level */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -76,12 +90,18 @@ aside {
     margin-bottom: 32px;
 }
 
+/* Consolidated and eliminated the Classes (Benefit-lead, Benefit-brand and 
+Benefit-cost) that were contained in a Class name Content and then defined these attritibutes and 
+value at the Aside element level */
 aside img {
     display: block;
     margin: 5px auto;
     max-width: 150px;
 }
 
+/* Consolidated and eliminated the Classes (Benefit-lead, Benefit-brand and 
+Benefit-cost) that were contained in a Class name Content and then defined these attritibutes and 
+value at the Aside element level.  Add font-size to increase readabilty of this element */
 aside h3 {
     margin-top: 15px;
     margin-bottom: 10px;
@@ -89,7 +109,11 @@ aside h3 {
     font-size: 30px;
 }
 
-.content-detail {
+/* Consolidated these three ID's into one css statement that contained 
+the same attributes and values  */
+#search-engine-optimization,
+ #online-reputation-management,
+ #social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -98,23 +122,38 @@ aside h3 {
     color: #ffffff; 
 }
 
-.content-detail img {
+/* Consolidated these three ID's into one css statement that contained 
+the same attributes and values  */
+#search-engine-optimization h2,
+ #online-reputation-management h2,
+ #social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+ }
+
+
+/* Consolidated these three ID's into one css statement that contained 
+the same attributes and values for images.  Additionally consolidated the attributes of 
+the class=float-left in this selector */
+#search-engine-optimization img,
+#social-media-marketing img {
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
 
-#right-image img {
+/* Removed selectors [.search-engine-optimization img] [.online-reputation-management img] 
+[.social-media-marketing img]  */
+
+/* Consolidated the attributes of the class=float-left in this selector */
+#online-reputation-management img {
     max-height: 200px;
     float: right;
     margin-right: 15px;
 }
 
-.content-detail-left.content-detail-right h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Change to a semantic element of <footer> from a <div class="footer">.
+Consoldated the h2 slector into this element to capture the font-size. */
 footer h2 {
     padding: 20px;
     clear: both;
