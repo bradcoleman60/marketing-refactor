@@ -101,8 +101,8 @@ Lastly, though intuitive and a lesson I have learned through out my career, coll
 
 My name is Brad Coleman. I am fairly new to web development but have considered it a hobby for several years and have hacked my way through learning various aspects including php, html and mysql.  I am currently enrolled in the Cal Berkeley Extension Web Development Boot camp and am excited to learn web development more holistically.  I have spent my earlier carreer working as a corporate controller / CPA.
 
-- [Linkedin Profile](#https://www.linkedin.com/in/brad-coleman-109529/)
-- [GitHub Repos](#https://github.com/bradcoleman60?tab=repositories)
+- [Linkedin Profile](https://www.linkedin.com/in/brad-coleman-109529/)
+- [GitHub Repos](https://github.com/bradcoleman60?tab=repositories)
 
 
 # **License**
